@@ -1,0 +1,27 @@
+.image-container {
+  padding: 0;
+  height: 480px;
+  cursor: crosshair;
+  position: relative;
+  margin: 2em;
+}
+
+canvas#image-canvas {
+  position: absolute;
+  z-index: 1;
+}
+
+.select-container {
+  position: absolute;
+  z-index: 10;
+}
+
+.select-box {
+  display: none;
+  border: 1px solid #1E8BCF;
+  box-shadow: 0 0 0 2px black;
+}
+
+.select-active {
+  display: block !important;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "scratch-web",
+  "private": true,
+  "dependencies": {
+    "zepto": "^1.1.6",
+    "backbone": "^1.2.3"
+  },
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "mocha": "~2.4.5"
+  }
+}

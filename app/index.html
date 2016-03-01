@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>scratch web</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap-dark.min.css">
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+  </head>
+  <body>
+    <div class="image-container">
+      <div class="select-container">
+        <div class="select-box"></div>
+      </div>
+      <canvas id="image-canvas" width="640" height="480"></canvas>
+    </div>
+
+    <div class="container buttons">
+      <button type="button" class="btn btn-primary btn-lg half-width zoom">Zoom</button>
+      <button type="button" class="btn btn-primary btn-lg half-width enhance">Enhance</button>
+    </div>
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/zepto/zepto.js"></script>
+    <script src="/bower_components/underscore/underscore.js"></script>
+    <script src="/bower_components/backbone/backbone.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
